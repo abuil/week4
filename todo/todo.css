@@ -1,0 +1,8 @@
+.thumbnail{ 
+  height: 100px;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
