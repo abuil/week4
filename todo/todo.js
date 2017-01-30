@@ -8,6 +8,6 @@ $(function() {
     console.log(elementThatWasClicked.parent());
     console.log(elementThatWasClicked.parent().parent());
     elementThatWasClicked.parent().parent().remove();
-  })
+  });
 
 })

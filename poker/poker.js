@@ -31,14 +31,14 @@ window.getDeck = function() {
 
 $(function() {
   // Your code goes here!
-         
+
   $(".deal").on("click", function(event) {
     event.preventDefault();
     var elementThatWasClicked = $(this);
     console.log(elementThatWasClicked);
     var deck_array = window.getDeck();
     console.log(deck_array);
-    deck_array.shuffle()
+    deck_array.shuffle();
     console.log(deck_array);
     
     //http://golearntocode.com/images/cards/ace_of_hearts.png
